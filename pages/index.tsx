@@ -24,10 +24,114 @@ export default function Home() {
      </div>
      </div>    
          <hr className='hrc' />
-     
-     
+        <div  className='cardhe' >
+         <div className="card bg-dark text-white">
+  <img src="../gh.png" className=" cardff card-img" alt="..."/>
+  <div className="card-img-overlay">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p className="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+</div>
           
-          
+
+
+
+<div className="card bg-dark text-white " >
+  <img src="../gh.png" className="card-img cardff" alt="Stony Beach"/>
+  <div className=" alicard card-img-overlay" >
+    <h1 className="card-title">Welcome to Russh!</h1>
+    <p className="card-text">
+    Russh is a super platform that hosts and offers other platform as exclusive supcription services.
+    </p>
+    <p className="card-text">
+    Russh offers exclusive subcription memberships to some of the most unique and innovative
+marketplace platforms, on demand service platform, on-demand video content and live streaming
+platform, social media platform, and even dating plaforms and much more; all exclusively for russh members.</p>
+<p className="card-text">
+Browse through our selection of subscriptions and choose only the platforms you desire the most and
+best of all, become eligible to pay less as you subscribe to more platforms.</p>
+<p className="card-text">
+Ready to start? Enter your email to create and begin your membership.</p>
+    <p className="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+<br />
+<br />
+<hr className='hrc' />
+<br />
+
+
+        <div className="clumn">
+            <h2 className="clo">Get exclusive access to
+                the best platforms.</h2>
+            <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
+                velit
+                expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
+        </div>
+        <div className="clumn">
+            <img className="clim" src="../3e0731a1aebace26ecbebf02a63a6b19.png" alt=""/>
+        </div>
+   <p className='colio'>_</p>
+  
+
+    
+<hr className='hrc' />
+
+    
+    <div className="clumn">
+            <img className='climo' src="../qwe.png" alt=""/>
+        </div>
+        <div className="clumn">
+            <h2 className="clo">Subscribe to some of themost unique platforms.</h2>
+            <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
+                velit
+                expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
+        </div>
+        <p className='colio'>_</p>
+  
+
+    
+  <hr className='hrc' />
+   
+    
+        <div className="clumn">
+            <h2 className="clo">Choose your favorite platforms subscribe.</h2>
+            <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
+                velit
+                expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
+        </div>
+        <div className="clumn">
+            <img className="clim" src="../asd.png" alt=""/>
+        </div>
+    
+    
+    <p className='colio'>_</p>
+  
+
+    
+  <hr className='hrc' />
+
+    
+    <div className="clumn">
+            <img className='climo' src="../3e0731a1aebace26ecbebf02a63a6b19.png" alt=""/>
+        </div>
+        <div className="clumn">
+            <h2 className="clo">Pay less by subscribing to more platform.</h2>
+            <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
+                velit
+                expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
+        </div>
+        
+     <p className='colio'>_</p>
+  
+
+    
+  <hr className='hrc' />
+   
+   <br />
+   <h1 className=" bolo clo">Frequently Asked Questions</h1>
           </>
   )
 }

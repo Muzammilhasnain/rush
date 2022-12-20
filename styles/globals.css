@@ -135,3 +135,50 @@ a {
   float: right;
   padding-top: 10px;
 }
+.cardhe{
+  padding: 60px;
+ 
+}
+.cardff{
+  border-radius: 40px;
+  
+}
+.bg-dark {
+  --bs-bg-opacity: 0;}
+.alicard{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.clumn {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clo{
+  color: white !important;
+}
+.clim{
+  width: 300px;
+float:right;
+}
+.climo{
+  width: 300px;
+
+}
+.wi{
+  color: white;
+}
+.colio{
+  color: black;
+}
+.bolo{
+  font-size: 60px;
+}
