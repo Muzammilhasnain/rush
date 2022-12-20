@@ -1,4 +1,5 @@
 import Head from 'next/head'
+
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
@@ -18,9 +19,12 @@ export default function Home() {
        <img  src="../group-187.svg"  alt="" />   
      <img className='hed' src="../bo.png"     /> 
      <img src="../vecto12.svg"     /> 
+     
+     <button type="button" className=" hef btn ">Sign in</button>
      </div>    
-         
-          
+         <hr className='hrc' />
+     
+     
           
           
           </>
