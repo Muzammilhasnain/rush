@@ -116,7 +116,7 @@ a {
 }
 .hef
 {
-  float: right;
+  
   background-color: white;
   width: 108px;
     height: 43px;
@@ -128,4 +128,10 @@ a {
 }
 .hrc{
   color: white;
+}
+.nm{
+  padding-right: 96px;
+  display: inline;
+  float: right;
+  padding-top: 10px;
 }

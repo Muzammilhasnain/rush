@@ -19,8 +19,9 @@ export default function Home() {
        <img  src="../group-187.svg"  alt="" />   
      <img className='hed' src="../bo.png"     /> 
      <img src="../vecto12.svg"     /> 
-     
+     <div className='nm' >
      <button type="button" className=" hef btn ">Sign in</button>
+     </div>
      </div>    
          <hr className='hrc' />
      
