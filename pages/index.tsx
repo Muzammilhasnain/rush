@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
@@ -24,7 +25,7 @@ export default function Home() {
      </div>
      </div>    
          <hr className='hrc' />
-        <div  className='cardhe' >
+        {/* <div  className='cardhe' >
          <div className="card bg-dark text-white">
   <img src="../gh.png" className=" cardff card-img" alt="..."/>
   <div className="card-img-overlay">
@@ -36,33 +37,72 @@ export default function Home() {
 </div>
           
 
+<div className="card bg-dark text-white" >
+        <img src="../gh.png" className="card-img" alt="Stony Beach" />
+        <div className=" alicard card-img-overlay">
+            <h5 className="card-title">Welcome to Russh!</h5>
+            <p className="card-text">
+                Russh is a super platform that hosts and offers other platform as exclusive supcription services.
+            </p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
+            <p className="card-text">Last updated 3 mins ago</p>
+
+            <p>Ready to start? Enter your email to create and begin your membership.</p>
+            <form  className="example" action="action_page.php">
+                <input type="text" placeholder="Enter Your Email" name="search"/>
+                <button type="submit">Send</button>
+            </form>
+            <p>Get the best platforms woth exclusive access all under one roof.</p>
+        </div>
+    </div> */}
 
 
-<div className="card bg-dark text-white " >
-  <img src="../gh.png" className="card-img cardff" alt="Stony Beach"/>
-  <div className=" alicard card-img-overlay" >
-    <h1 className="card-title">Welcome to Russh!</h1>
-    <p className="card-text">
-    Russh is a super platform that hosts and offers other platform as exclusive supcription services.
-    </p>
-    <p className="card-text">
-    Russh offers exclusive subcription memberships to some of the most unique and innovative
-marketplace platforms, on demand service platform, on-demand video content and live streaming
-platform, social media platform, and even dating plaforms and much more; all exclusively for russh members.</p>
-<p className="card-text">
-Browse through our selection of subscriptions and choose only the platforms you desire the most and
-best of all, become eligible to pay less as you subscribe to more platforms.</p>
-<p className="card-text">
-Ready to start? Enter your email to create and begin your membership.</p>
-    <p className="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
+<div className='cardhe'>
+    <div className="outerArea card bg-dark text-white" >
+        <img src="../gh.png" className=" cardff card-img" alt="Stony Beach" />
+        <div className=" innerArea card-img-overlay alicard " >
+            <h5 className="heading card-title">Welcome to Russh!</h5>
+            <p className="txt card-text">
+                Russh is a super platform that hosts and offers other platform as exclusive supcription services.
+            </p>
+
+            <p className="txt card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
+            <p className="txt card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
+            <p className="txt card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
+            <p className="txt card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
+           
+
+            <p className="txt card-text">Ready to start? Enter your email to create and begin your membership.</p>
+            <form  className="example" action="action_page.php">
+                <input type="text" placeholder="Enter Your Email" name="search"/>
+                <button type="submit">Send</button>
+            </form>
+            <p className="txt card-text">Get the best platforms woth exclusive access all under one roof.</p>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
 <br />
 <br />
 <hr className='hrc' />
 <br />
 
-
+<div className="cardhe" >
         <div className="clumn">
             <h2 className="clo">Get exclusive access to
                 the best platforms.</h2>
@@ -73,12 +113,13 @@ Ready to start? Enter your email to create and begin your membership.</p>
         <div className="clumn">
             <img className="clim" src="../3e0731a1aebace26ecbebf02a63a6b19.png" alt=""/>
         </div>
+        
    <p className='colio'>_</p>
   
 
     
 <hr className='hrc' />
-
+</div>
     
     <div className="clumn">
             <img className='climo' src="../qwe.png" alt=""/>
@@ -95,7 +136,7 @@ Ready to start? Enter your email to create and begin your membership.</p>
     
   <hr className='hrc' />
    
-    
+  <div className="cardhe" >
         <div className="clumn">
             <h2 className="clo">Choose your favorite platforms subscribe.</h2>
             <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
@@ -112,7 +153,7 @@ Ready to start? Enter your email to create and begin your membership.</p>
 
     
   <hr className='hrc' />
-
+</div>
     
     <div className="clumn">
             <img className='climo' src="../3e0731a1aebace26ecbebf02a63a6b19.png" alt=""/>
@@ -132,6 +173,227 @@ Ready to start? Enter your email to create and begin your membership.</p>
    
    <br />
    <h1 className=" bolo clo">Frequently Asked Questions</h1>
+   <div className='container' >
+   <div className="m-4">
+    <div className="accordion  " id="myAccordion">
+        <div className="accordion-item acco">
+            <h2 className="accordion-header" id="headingOne">
+                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne"> What is Russh?</button>									
+            </h2>
+            <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div className="card-body accob">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+</div>
+</div>
+<div className='container' >
+   <div className="m-4">
+    <div className="accordion  " id="myAccordion">
+        <div className="accordion-item acco">
+            <h2 className="accordion-header" id="headingOne">
+                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne"> How much does Russh cost?</button>									
+            </h2>
+            <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div className="card-body accob">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+</div>
+</div>
+<div className='container' >
+   <div className="m-4">
+    <div className="accordion  " id="myAccordion">
+        <div className="accordion-item acco">
+            <h2 className="accordion-header" id="headingOne">
+                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">How do i cancel my subscription?</button>									
+            </h2>
+            <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div className="card-body accob">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+</div>
+</div>
+<div className='container' >
+   <div className="m-4">
+    <div className="accordion  " id="myAccordion">
+        <div className="accordion-item acco">
+            <h2 className="accordion-header" id="headingOne">
+                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">What platforms are available on Russh?</button>									
+            </h2>
+            <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div className="card-body accob">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+</div>
+</div>
+<div className='container' >
+   <div className="m-4">
+    <div className="accordion  " id="myAccordion">
+        <div className="accordion-item acco">
+            <h2 className="accordion-header" id="headingOne">
+                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">How does Russh offer exclusive memberships?</button>									
+            </h2>
+            <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div className="card-body accob">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+</div>
+</div>
+        <p className=" bolon clo">Ready to start? Enter your email to create and begin your membership.</p>
+        <div className="contai my-5">
+    <form  className="example">
+        <input type="text" placeholder="Email Address" name="search"/>
+        <button type="submit">Get Started</button>
+    </form>
+</div>
+
+<div className="container-fluid my-5 conBox" >
+      
+        <footer className="text-center text-lg-start text-white" >
+         
+            <div className="container p-4 pb-0">
+               
+                <section className="">
+                 
+                    <div className="row">
+                       
+                        <div className="col-12 col-sm-3 mt-3">
+
+                            <img src="logo1.png" alt="" className="logo"/>
+
+                         
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus voluptatem quod quos
+                                harum deleniti suscipit corrupti 
+                            </p>
+                        </div>
+                      
+
+                        <hr className="w-100 clearfix d-md-none" />
+
+                      
+                        <div className="col-12 col-sm-2 mt-3 colPadding">
+                           
+                            <ul className="listStyle">
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Company</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> FAQs</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Contact Us</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Blogs</li>
+
+                            </ul>
+                        </div>
+                      
+
+                        <hr className="w-100 clearfix d-md-none" />
+
+                       
+                        <div className="col-12 col-sm-4 mt-3 colPadding" >
+                            
+                       
+                            <ul className="listStyle">
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Legal</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Terms & Conditions</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Privacy Policy</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> About Us</li>
+
+                            </ul>
+                       
+                        </div>
+
+                      
+                        <hr className="w-100 clearfix d-md-none" />
+
+                       
+                        <div className="col-12 col-sm-3 mt-3 contactUs" >
+                            <h6 className="text-uppercase mb-4 font-weight-bold">Question? Contact</h6>
+                        
+                            <p><i className="fa fa-envelope mr-3"></i> Send Email</p>
+                            <p><i className="fa-solid fa-comment mr-3"></i> Chat With Us</p>
+                            <p><i className="fa-solid fa-phone mr-3"></i> Give Us A Call</p>
+
+                            <a className="btn btn-outline-light btn-floating m-1 webIcon text-white"  role="button"><i
+                                className="fab fa-facebook-f"></i></a>
+
+                      
+                        <a className="btn btn-outline-light btn-floating m-1 webIcon text-white"  role="button"><i
+                                className="fab fa-twitter"></i></a>
+
+                        
+                        <a className="btn btn-outline-light btn-floating m-1 webIcon text-white"  role="button"><i
+                                className="fab fa-youtube"></i></a>
+
+                        <a className="btn btn-outline-light btn-floating m-1 webIcon text-white"  role="button"><i
+                                className="fab fa-instagram"></i></a>
+                        </div>
+                    
+                    </div>
+                
+                </section>
+             
+
+                <hr className="my-3"/>
+
+                
+                <section className="p-3 pt-0">
+                    <div className="row d-flex align-items-center">
+                      
+                        <div className="col-md-7 col-lg-8 text-center text-md-start">
+                            
+                            <div className="p-3">
+                                © 2022 Copyright:
+                                <a className="text-white copyText" href="https://mdbootstrap.com/">Russh Interactive LLC</a>
+                            </div>
+                           
+                        </div>
+                     
+
+                       
+                        <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                           
+                            <a href="#" className="privacy">Privacy Policy|Terms & Conditions</a>
+                          
+                        </div>
+                      
+                    </div>
+                </section>
+                
+            </div>
+          
+        </footer>
+       
+    </div>
+    
+
+
           </>
   )
 }
