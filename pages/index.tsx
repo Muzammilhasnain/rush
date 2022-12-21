@@ -16,86 +16,79 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='he' >
+      {/* header */}
+      
+      <div className='he ' >
        <img  src="../group-187.svg"  alt="" />   
      <img className='hed' src="../bo.png"     /> 
      <img src="../vecto12.svg"     /> 
      <div className='nm' >
-     <button type="button" className=" hef btn ">Sign in</button>
+     <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">Sign in</button>
      </div>
      </div>    
          <hr className='hrc' />
-        {/* <div  className='cardhe' >
-         <div className="card bg-dark text-white">
-  <img src="../gh.png" className=" cardff card-img" alt="..."/>
-  <div className="card-img-overlay">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p className="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
-</div>
-          
+       
+       {/* end header */}
 
-<div className="card bg-dark text-white" >
-        <img src="../gh.png" className="card-img" alt="Stony Beach" />
-        <div className=" alicard card-img-overlay">
-            <h5 className="card-title">Welcome to Russh!</h5>
-            <p className="card-text">
-                Russh is a super platform that hosts and offers other platform as exclusive supcription services.
-            </p>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
-            <p className="card-text">Last updated 3 mins ago</p>
-
-            <p>Ready to start? Enter your email to create and begin your membership.</p>
-            <form  className="example" action="action_page.php">
-                <input type="text" placeholder="Enter Your Email" name="search"/>
-                <button type="submit">Send</button>
-            </form>
-            <p>Get the best platforms woth exclusive access all under one roof.</p>
-        </div>
-    </div> */}
-
-
-<div className='cardhe'>
+     {/* front image  */}
+     <div className='cardhe'>
     <div className="outerArea card bg-dark text-white" >
-        <img src="../gh.png" className=" cardff card-img" alt="Stony Beach" />
-        <div className=" innerArea card-img-overlay alicard " >
-            <h5 className="heading card-title">Welcome to Russh!</h5>
-            <p className="txt card-text">
-                Russh is a super platform that hosts and offers other platform as exclusive supcription services.
-            </p>
+        
+        <div className=" innerArea coverimgback alicard " >
+        <h5 className="heading card-title">Welcome to Russh!</h5>
+                    
+                    <div className="row">
+                                    <div className="col-xl-6">
+                                        <p className="txt card-text">
+                                            Russh is a super platform that hosts and offers other platform as exclusive supcription
+                                            services. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque excepturi
+                                            reiciendis
+                                            fugiat ut tempore corporis!
+                                        </p>
+                                    </div>
+                                </div>
+            
+                                <div className="row">
+                                    <div className="col-xl-6">
+                                        <p className="txt card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam,
+                                            ullam?
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, sunt.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-xl-6">
+                                        <p className="txt card-text">Ready to start? Enter your email to create and begin your
+                                            membership.</p>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-xl-6  col-lg-6 col-md-6 col-sm-8">
+                                        <form className="example" action="action_page.php">
+                                            <input type="text" placeholder="Enter Your Email" name="search"/>
+                                            <button type="submit">Send</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-xl-6">
+                                        <p className="txt card-text">Get the best platforms woth exclusive access all under one roof.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+       </div>
 
-            <p className="txt card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
-            <p className="txt card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
-            <p className="txt card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
-            <p className="txt card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, ullam?</p>
-           
-
-            <p className="txt card-text">Ready to start? Enter your email to create and begin your membership.</p>
-            <form  className="example" action="action_page.php">
-                <input type="text" placeholder="Enter Your Email" name="search"/>
-                <button type="submit">Send</button>
-            </form>
-            <p className="txt card-text">Get the best platforms woth exclusive access all under one roof.</p>
-        </div>
-    </div>
-
-    </div>
 
 
 
+              {/* end of front image */}
 
 
 
-
-
-
-
+                   {/* card 1*/}
 
 <br />
 <br />
@@ -103,16 +96,18 @@ export default function Home() {
 <br />
 
 <div className="cardhe" >
-        <div className="clumn">
+<div className="row text-center">
+                        <div className="col-md-6 cols">
+       
             <h2 className="clo">Get exclusive access to
                 the best platforms.</h2>
             <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
-        <div className="clumn">
+        <div className="col-md-6 cols">
             <img className="clim" src="../3e0731a1aebace26ecbebf02a63a6b19.png" alt=""/>
-        </div>
+            </div></div>
         
    <p className='colio'>_</p>
   
@@ -120,32 +115,41 @@ export default function Home() {
     
 <hr className='hrc' />
 </div>
-    
-    <div className="clumn">
+               {/* end of card 1 */}
+
+            {/* card 2 */}
+
+<div className="row text-center">
+                        <div className="col-md-6 cols">
             <img className='climo' src="../qwe.png" alt=""/>
         </div>
-        <div className="clumn">
+        <div className="col-md-6 cols">
             <h2 className="clo">Subscribe to some of themost unique platforms.</h2>
             <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
         <p className='colio'>_</p>
-  
+  </div>
 
     
   <hr className='hrc' />
    
+             {/* end of card 2 */}
+
+            {/* card 3 */}
+
   <div className="cardhe" >
-        <div className="clumn">
+  <div className="row text-center">
+                        <div className="col-md-6 cols">
             <h2 className="clo">Choose your favorite platforms subscribe.</h2>
             <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
-        <div className="clumn">
+        <div className="col-md-6 cols">
             <img className="clim" src="../asd.png" alt=""/>
-        </div>
+            </div></div>
     
     
     <p className='colio'>_</p>
@@ -154,25 +158,37 @@ export default function Home() {
     
   <hr className='hrc' />
 </div>
-    
-    <div className="clumn">
+
+          {/* end of card 3 */}
+
+         {/* card 4 */}
+           
+<div className="row text-center">
+<div className="col-md-6 cols">
             <img className='climo' src="../3e0731a1aebace26ecbebf02a63a6b19.png" alt=""/>
         </div>
-        <div className="clumn">
+        <div className="col-md-6 cols">
             <h2 className="clo">Pay less by subscribing to more platform.</h2>
             <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
-        
+        </div>
      <p className='colio'>_</p>
   
 
     
   <hr className='hrc' />
-   
+    
+              {/* end of card 4 */}
+
+            {/* Frequently asked question */}
+
    <br />
    <h1 className=" bolo clo">Frequently Asked Questions</h1>
+        
+            {/* toggle 1 */}
+      
    <div className='container' >
    <div className="m-4">
     <div className="accordion  " id="myAccordion">
@@ -186,97 +202,136 @@ export default function Home() {
                 </div>
             </div>
         </div>
-    </div>
-    
+    </div>    
+</div>
+</div>
 
-    
-</div>
-</div>
+      {/* end of toggle 1 */}
+
+          {/* toggle 2 */}
+
 <div className='container' >
    <div className="m-4">
-    <div className="accordion  " id="myAccordion">
+    <div className="accordion" id="myAccordion">
         <div className="accordion-item acco">
-            <h2 className="accordion-header" id="headingOne">
-                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne"> How much does Russh cost?</button>									
+            <h2 className="accordion-header" id="headingTwo">
+                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapsetwo"> How much does Russh cost?</button>									
             </h2>
-            <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
+            <div id="collapsetwo" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div className="card-body accob">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
                 </div>
             </div>
         </div>
     </div>
-    
+</div>
+</div>
 
-    
-</div>
-</div>
+        {/* end of toggle 2 */}
+
+        {/* toggle 3 */}
+
 <div className='container' >
    <div className="m-4">
-    <div className="accordion  " id="myAccordion">
+    <div className="accordion" id="myAccordion">
         <div className="accordion-item acco">
-            <h2 className="accordion-header" id="headingOne">
-                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">How do i cancel my subscription?</button>									
+            <h2 className="accordion-header" id="headingThree">
+                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne3">How do i cancel my subscription?</button>									
             </h2>
-            <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
+            <div id="collapseOne3" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div className="card-body accob">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
                 </div>
             </div>
         </div>
     </div>
-    
+</div>
+</div>
 
-    
-</div>
-</div>
+        {/* end of toggle 3 */}
+
+
+           {/* toggle 4 */}
+
 <div className='container' >
    <div className="m-4">
     <div className="accordion  " id="myAccordion">
         <div className="accordion-item acco">
-            <h2 className="accordion-header" id="headingOne">
-                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">What platforms are available on Russh?</button>									
+            <h2 className="accordion-header" id="headingOne4">
+                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne4">What platforms are available on Russh?</button>									
             </h2>
-            <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
+            <div id="collapseOne4" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div className="card-body accob">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
                 </div>
             </div>
         </div>
     </div>
-    
+</div>
+</div>
+         {/* end of toggle 4 */}
 
-    
-</div>
-</div>
+          {/* toggle 5 */}
+
 <div className='container' >
    <div className="m-4">
     <div className="accordion  " id="myAccordion">
         <div className="accordion-item acco">
-            <h2 className="accordion-header" id="headingOne">
-                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">How does Russh offer exclusive memberships?</button>									
+            <h2 className="accordion-header" id="headingfive">
+                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapsefive">How does Russh offer exclusive memberships?</button>									
             </h2>
-            <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
+            <div id="collapsefive" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div className="card-body accob">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
                 </div>
             </div>
         </div>
     </div>
-    
+</div>
+</div>
 
-    
-</div>
-</div>
+                 {/* end of toggle 5 */}
+                 
+                  {/* end of FAQ */}
+                   
+                   {/* membership email */}
+
         <p className=" bolon clo">Ready to start? Enter your email to create and begin your membership.</p>
-        <div className="contai my-5">
-    <form  className="example">
-        <input type="text" placeholder="Email Address" name="search"/>
-        <button type="submit">Get Started</button>
-    </form>
-</div>
+        <div className="member my-5">
 
-<div className="container-fluid my-5 conBox" >
+
+        <div className="row">
+            <div className="col-xl-6 col-lg-8 col-md-8 col-sm-12  mx-auto">
+
+                <form className="example">
+                    <div className="row">
+                        <div className="col-12 col-sm-8">
+
+
+                            <input type="text" placeholder="Email Address" name="search"/>
+                        </div>
+
+
+
+
+                        <div className="col-12 col-sm-4 getStartedBTN">
+
+
+                            <button  type="submit">Get Started</button>
+
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+                    {/* end of membership email */}
+
+                    {/* footer */}
+           
+          <div className="container-fluid  conBox" >
       
         <footer className="text-center text-lg-start text-white" >
          
@@ -284,11 +339,11 @@ export default function Home() {
                
                 <section className="">
                  
-                    <div className="row">
+                    <div className="row  footercenter">
                        
                         <div className="col-12 col-sm-3 mt-3">
 
-                            <img src="logo1.png" alt="" className="logo"/>
+                            <img src="../bo.png" alt="" className="logo"/>
 
                          
                             <p>
@@ -392,7 +447,7 @@ export default function Home() {
        
     </div>
     
-
+                      {/* end of footer */}
 
           </>
   )

@@ -105,36 +105,12 @@ a {
     color-scheme: dark;
   }
 }
-.hed{
-  margin-left : 45px;
-  margin-right : 45px;
-  height: 60px;
-  width: 80px;
-}
-.he{
-  margin-top: 25px;
-}
-.hef
-{
-  
-  background-color: white;
-  width: 108px;
-    height: 43px;
-}
-.hef:hover
-{
 
-  background-color: red;
-}
+
 .hrc{
   color: white;
 }
-.nm{
-  padding-right: 96px;
-  display: inline;
-  float: right;
-  padding-top: 10px;
-}
+
 .cardhe{
   padding: 30px;
  
@@ -167,7 +143,7 @@ a {
 }
 .clim{
   width: 300px;
-float:right;
+
 }
 .climo{
   width: 300px;
@@ -190,7 +166,6 @@ float:right;
 
 /* front */
 .outerArea .innerArea form.example {
-  width: 44%;
   height: 60px;
   background: #fff;
   border: 1px solid #97A3AE;
@@ -234,24 +209,23 @@ float:right;
   padding: 110px 60px;
 }
 .outerArea .innerArea .heading {
-  font-size: 78px;
+  font-size: 5em;
 
 }
 
 
-  @media screen and (max-width: 1260px) {
+@media screen and (max-width: 880px) {
+  .outerArea .innerArea .heading {
+      font-size: 3em;
+
+  }
+
   .outerArea .innerArea {
-      padding: 10px 42px;
+      padding: 30px 40px;
   }
-  .outerArea .innerArea .heading{
-  font-size: 35px;
-
-  }
-.outerArea .innerArea .txt{
-      font-size: 10px;
-  }
-
 }
+
+
 /* bar */
 .contai{
   display: flex;
@@ -262,7 +236,7 @@ float:right;
     width: 50%;
     height: 69px;
     background: #fff;
-    border: 1px solid #111;
+    border: 1px solid #fff;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -325,43 +299,153 @@ float:right;
     .accob{
       padding: 20px;
     }
-    /* footer */
-    .conBox {
-      background-color: #111;
-      margin-top: 60px;
-      margin-bottom: 0px;
-  }
+    
+    
 
-  .iconSize {
-      font-size: 8px;
-  }
+  .outerArea .innerArea{
+   
+    background: url('../public/front.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.coverimgback{
+  border-radius: 50px;
+}
 
-  .colPadding {
-      padding: 0;
-  }
 
-  .logo {
-      width: 135px;
-  }
 
-  .listStyle {
-      list-style-type: none;
+                                                          /* header */
+ .he{
+  margin-top: 25px;
   }
+  .hed{
+    margin-left : 45px;
+    margin-right : 45px;
+    height: 60px;
+    width: 80px;
+  }
+  .nm{
+    padding-right: 96px;
+    display: inline;
+    float: right;
+    padding-top: 10px;
+  }
+  .hef
+{
+  
+  background-color: white;
+  width: 108px;
+    height: 43px;
+}
+.hef:hover
+{
 
-  .contactUs {
-      padding-top: 15px;
-  }
+  background-color: red;
+}
+                                                    /* end of header */
+                                                    
+                                                    
+                                                    /* footer */
+.conBox {
+  background-color: #111;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+.footercenter{
+  justify-content: center;
+}
+.colPadding {
+  padding: 0;
+}
+.listStyle {
+  list-style-type: none;
+}
+.contactUs {
+  padding-top: 15px;
+}
+.webIcon {
+  border-radius: 50px;
+  background: #404040;
+  border: none
+}
+.privacy {
+  color: #ffff;
+}
+.iconSize {
+  font-size: 8px;
+}
+.logo {
+  width: 135px;
+}
 
-  .copyText {
-      text-decoration: none;
-  }
+.copyText {
+  text-decoration: none;
+}
+                                             /* end of footer */
 
-  .webIcon {
-      border-radius: 50px;
-      background: #404040;
-      border: none
-  }
 
-  .privacy {
-      color: #ffff;
-  }
+
+
+                              /* membership email */
+.member {
+  display: flex;
+  justify-content: center;
+}
+
+.member form.example {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #111;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'poppins';
+
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+}
+.col-12{
+  padding: 0;
+  padding-right: 3px;
+}
+
+.member form.example input {
+  padding: 10px;
+  font-size: 17px;
+
+
+  border: none;
+  border-radius: 20px;
+
+  width: 100%;
+  background: #ffff;
+  font-family: 'poppins';
+}
+
+.member form.example button {
+ 
+  width: 100%;
+  height: 44px;
+
+  padding: 10px 20px;
+  background: #EC0000;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #EC0000;
+  border-radius: 10px;
+       margin-top: 2px;
+  cursor: pointer;
+  font-family: 'poppins';
+}
+
+@media screen and (max-width: 575px) {
+.getStartedBTN{
+  margin-top: 10px;
+
+}
+}
+                                                              /* end of membership form */
