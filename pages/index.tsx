@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       {/* header */}
       
-      <div className='he ' >
+      <div className='he  ' >
        <img  src="../group-187.svg"  alt="" />   
      <img className='hed' src="../bo.png"     /> 
      <img src="../vecto12.svg"     /> 
@@ -198,7 +198,7 @@ export default function Home() {
             </h2>
             <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div className="card-body accob">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. </p>
                 </div>
             </div>
         </div>
@@ -219,7 +219,7 @@ export default function Home() {
             </h2>
             <div id="collapsetwo" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div className="card-body accob">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. </p>
                 </div>
             </div>
         </div>
@@ -240,7 +240,7 @@ export default function Home() {
             </h2>
             <div id="collapseOne3" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div className="card-body accob">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. </p>
                 </div>
             </div>
         </div>
@@ -262,7 +262,7 @@ export default function Home() {
             </h2>
             <div id="collapseOne4" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div className="card-body accob">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. </p>
                 </div>
             </div>
         </div>
@@ -282,7 +282,7 @@ export default function Home() {
             </h2>
             <div id="collapsefive" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div className="card-body accob">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. </p>
                 </div>
             </div>
         </div>
