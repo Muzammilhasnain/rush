@@ -20,10 +20,11 @@ export default function Home() {
       
       <div className='he  ' >
        <img  src="../group-187.svg"  alt="" />   
-     <img className='hed' src="../bo.png"     /> 
+     <img className='hed' src="../bo.png"  /> 
+     
      <img src="../vecto12.svg"     /> 
      <div className='nm' >
-     <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">Sign in</button>
+     <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">Sign In</button>
      </div>
      </div>    
          <hr className='hrc' />
@@ -95,12 +96,13 @@ export default function Home() {
 <hr className='hrc' />
 <br />
 
-<div className="cardhe" >
-<div className="row text-center">
-                        <div className="col-md-6 cols">
+
+<div className="row ">
+    <div className="col-md-1 cols" ></div>
+                        <div className="col-md-4 cols crd_text">
        
-            <h2 className="clo">Get exclusive access to
-                the best platforms.</h2>
+            <h1 className="clo gmn">Get exclusive access to 
+                the best platforms.</h1>
             <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
@@ -108,27 +110,31 @@ export default function Home() {
         <div className="col-md-6 cols">
             <img className="clim" src="../3e0731a1aebace26ecbebf02a63a6b19.png" alt=""/>
             </div></div>
-        
+            <div className="col-md-1 cols" ></div>
    <p className='colio'>_</p>
   
 
     
 <hr className='hrc' />
-</div>
+
                {/* end of card 1 */}
 
             {/* card 2 */}
 
-<div className="row text-center">
-                        <div className="col-md-6 cols">
-            <img className='climo' src="../qwe.png" alt=""/>
+<div className="row ">
+<div className="col-md-1 cols" ></div>
+                        <div className="col-md-4 cols ">
+            <img className='climoc' src="../qwe.png" alt=""/>
         </div>
-        <div className="col-md-6 cols">
-            <h2 className="clo">Subscribe to some of themost unique platforms.</h2>
+        <div className="col-md-1 cols" ></div>
+        <div className="col-md-1 cols" ></div>
+        <div className="col-md-4 cols crd_texto">
+            <h2 className="clo gmn">Subscribe to some of the most unique platforms.</h2>
             <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
+        <div className="col-md-1 cols" ></div>
         <p className='colio'>_</p>
   </div>
 
@@ -139,41 +145,46 @@ export default function Home() {
 
             {/* card 3 */}
 
-  <div className="cardhe" >
-  <div className="row text-center">
-                        <div className="col-md-6 cols">
-            <h2 className="clo">Choose your favorite platforms subscribe.</h2>
+ 
+  <div className="row ">
+  <div className="col-md-1 cols" ></div>
+                        <div className="col-md-4 cols crd_text">
+            <h2 className="clo gmn">Choose your favorite platforms subscribe.</h2>
             <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
         <div className="col-md-6 cols">
-            <img className="clim" src="../asd.png" alt=""/>
+            <img className="climc" src="../asd.png" alt=""/>
             </div></div>
-    
+            <div className="col-md-1 cols" ></div>
     
     <p className='colio'>_</p>
   
 
     
   <hr className='hrc' />
-</div>
+
 
           {/* end of card 3 */}
 
          {/* card 4 */}
            
-<div className="row text-center">
-<div className="col-md-6 cols">
+<div className="row ">
+<div className="col-md-1 cols" ></div>
+<div className="col-md-4 cols">
             <img className='climo' src="../3e0731a1aebace26ecbebf02a63a6b19.png" alt=""/>
         </div>
-        <div className="col-md-6 cols">
-            <h2 className="clo">Pay less by subscribing to more platform.</h2>
+        <div className="col-md-1 cols" ></div>
+        <div className="col-md-1 cols" ></div>
+        <div className="col-md-4 cols crd_texto">
+            <h2 className="clo gmn">Pay less by subscribing to more platform.</h2>
             <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
         </div>
+        <div className="col-md-1 cols" ></div>
      <p className='colio'>_</p>
   
 
@@ -295,7 +306,8 @@ export default function Home() {
                   {/* end of FAQ */}
                    
                    {/* membership email */}
-
+<br />
+<br />
         <p className=" bolon clo">Ready to start? Enter your email to create and begin your membership.</p>
         <div className="member my-5">
 
@@ -327,10 +339,11 @@ export default function Home() {
             </div>
         </div>
     </div>
+    <hr className="hrc"/>
                     {/* end of membership email */}
-
+                    
                     {/* footer */}
-           
+                    
           <div className="container-fluid  conBox" >
       
         <footer className="text-center text-lg-start text-white" >
@@ -414,7 +427,9 @@ export default function Home() {
                 
                 </section>
              
-
+<br />
+<br />
+<br />
                 <hr className="my-3"/>
 
                 
@@ -434,7 +449,7 @@ export default function Home() {
                        
                         <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                            
-                            <a href="#" className="privacy">Privacy Policy|Terms & Conditions</a>
+                            <a href="#" className="privacy">Privacy Policy | Terms & Conditions</a>
                           
                         </div>
                       
