@@ -153,10 +153,16 @@ a {
   width: 400px;
   
 }
+.tec-card{
+  color: rgba(255, 255, 255, 0.4);
+}
 .climc{
   
   width: 420px;
   float: right;
+}
+.lightp{
+  font-weight: 100;
 }
 .climoc{
   
@@ -198,17 +204,34 @@ a {
   border: none;
   border-radius: 20px;
   float: left;
-  width: 60%;
+  width: 70%;
   background: #ffff;
   font-family: 'poppins';
 }
-
+@media (max-width:375px) {
+  .outerArea .innerArea form.example button{
+    width:40% !important
+  }
+  
+}
+@media (max-width:375px) {
+  .outerArea .innerArea form.example input{
+    width:60%
+  }
+  
+}
+.outerArea .innerArea form.example button:hover{
+  background: white;
+  color: #000;
+  border: white;
+  transition: 0.7s;
+}
 .outerArea .innerArea form.example button {
   float: left;
-  width: 40%;
+  width: 30%;
   height: 54px;
 
-  padding: 10px 20px;
+ 
   background: #EC0000;
   color: white;
   font-size: 17px;
@@ -226,7 +249,12 @@ a {
   font-size: 5em;
 
 }
+.background_cardimg{
+  background: url('../public/front.jpeg');
+    background-size: cover;
+    background-position: center;
 
+}
 
 @media screen and (max-width: 880px) {
   .outerArea .innerArea .heading {
@@ -238,7 +266,11 @@ a {
       padding: 30px 40px;
   }
 }
-
+@media (max-width: 978px) {
+  .cardhe {
+    padding:0;
+    
+  }}
 
 /* bar */
 .contai{
@@ -317,10 +349,8 @@ a {
     
 
   .outerArea .innerArea{
-   
-    background: url('../public/front.jpeg');
-    background-size: cover;
-    background-position: center;
+    background:  rgba(0, 0, 0, 0.5);
+    
 }
 .coverimgback{
   border-radius: 50px;
@@ -445,6 +475,12 @@ height: 65px;
   width: 100%;
   background: #ffff;
   font-family: 'poppins';
+}
+.member form.example button:hover{
+transition: 0.7s;
+background: white;
+color: #000;
+border: white;
 }
 
 .member form.example button {

@@ -34,29 +34,33 @@ export default function Home() {
      {/* front image  */}
      <div className='cardhe'>
     <div className="outerArea card bg-dark text-white" >
-        
-        <div className=" innerArea coverimgback alicard " >
+        <div className='background_cardimg coverimgback' >
+        <div className=" innerArea  alicard " >
+             
+       <br />
+            <br />
         <h5 className="heading card-title">Welcome to Russh!</h5>
                     
                     <div className="row">
-                                    <div className="col-xl-6">
-                                        <p className="txt card-text">
+                                    <div className="col-xl-12">
+                                        <p className="txt card-text ">
                                             Russh is a super platform that hosts and offers other platform as exclusive supcription
-                                            services. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque excepturi
-                                            reiciendis
-                                            fugiat ut tempore corporis!
+                                            services.
                                         </p>
                                     </div>
                                 </div>
-            
+            <br />
                                 <div className="row">
                                     <div className="col-xl-6">
-                                        <p className="txt card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam,
-                                            ullam?
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, sunt.
-                                        </p>
+                                        <p className="txt card-text tec-card">Russh offers exclusive subcription memberships to some of the most unique and innovative
+marketplace platforms, on demand service platform, on-demand video content and live streaming
+platform, social media platform, and even dating plaforms and much more; all exclusively for russh members.
+                                        </p >
+                                        <p className="tec-card">Browse through our selection of subscriptions and choose only the platforms you desire the most and
+best of all, become eligible to pay less as you subscribe to more platforms.</p>
                                     </div>
                                 </div>
+                                <br />
                                 <div className="row">
                                     <div className="col-xl-6">
                                         <p className="txt card-text">Ready to start? Enter your email to create and begin your
@@ -64,10 +68,10 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-xl-6  col-lg-6 col-md-6 col-sm-8">
+                                    <div className="col-xl-5  col-lg-6 col-md-6 col-sm-8">
                                         <form className="example" action="action_page.php">
                                             <input type="text" placeholder="Enter Your Email" name="search"/>
-                                            <button type="submit">Send</button>
+                                            <button type="submit">Get Started <i className="fa fa-arrow-right" aria-hidden="true"></i></button>
                                         </form>
                                     </div>
                                 </div>
@@ -75,9 +79,11 @@ export default function Home() {
                                     <div className="col-xl-6">
                                         <p className="txt card-text">Get the best platforms woth exclusive access all under one roof.
                                         </p>
+                                        <br />
+                                        <br />
                                     </div>
                                 </div>
-                            </div>
+                           </div> </div>
                         </div>
             
        </div>
@@ -103,7 +109,7 @@ export default function Home() {
        
             <h1 className="clo gmn">Get exclusive access to 
                 the best platforms.</h1>
-            <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
+            <p className="clo lightp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
@@ -130,7 +136,7 @@ export default function Home() {
         <div className="col-md-1 cols" ></div>
         <div className="col-md-4 cols crd_texto">
             <h2 className="clo gmn">Subscribe to some of the most unique platforms.</h2>
-            <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
+            <p className="clo lightp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
@@ -150,7 +156,7 @@ export default function Home() {
   <div className="col-md-1 cols" ></div>
                         <div className="col-md-4 cols crd_text">
             <h2 className="clo gmn">Choose your favorite platforms subscribe.</h2>
-            <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
+            <p className="clo lightp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
@@ -179,7 +185,7 @@ export default function Home() {
         <div className="col-md-1 cols" ></div>
         <div className="col-md-4 cols crd_texto">
             <h2 className="clo gmn">Pay less by subscribing to more platform.</h2>
-            <p className="clo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
+            <p className="clo lightp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quo, nisi, earum soluta aliquid rerum
                 velit
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
@@ -313,11 +319,11 @@ export default function Home() {
 
 
         <div className="row">
-            <div className="col-xl-6 col-lg-8 col-md-8 col-sm-12  mx-auto">
+            <div className="col-xl-9 col-lg-8 col-md-8 col-sm-12  mx-auto">
 
                 <form className="example">
                     <div className="row">
-                        <div className="col-12 col-sm-8">
+                        <div className="col-12 col-sm-10">
 
 
                             <input type="text" placeholder="Email Address" name="search"/>
@@ -326,10 +332,10 @@ export default function Home() {
 
 
 
-                        <div className="col-12 col-sm-4 getStartedBTN">
+                        <div className="col-12 col-sm-2 getStartedBTN">
 
 
-                            <button  type="submit">Get Started</button>
+                            <button  type="submit">Get Started <i className="fa fa-arrow-right" aria-hidden="true"></i></button>
 
                         </div>
                     </div>
