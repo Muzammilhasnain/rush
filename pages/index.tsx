@@ -345,6 +345,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
             </div>
         </div>
     </div>
+    <br />
     <hr className="hrc"/>
                     {/* end of membership email */}
                     
