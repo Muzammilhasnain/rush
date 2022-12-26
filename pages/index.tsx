@@ -81,11 +81,11 @@ export default function Home() {
             <br />
                                 <div className="row">
                                     <div className="col-xl-6">
-                                        <p className="txt card-text tec-card">Russh offers exclusive subcription memberships to some of the most unique and innovative
+                                        <p className="txt card-text tec-card bnmg">Russh offers exclusive subcription memberships to some of the most unique and innovative
 marketplace platforms, on demand service platform, on-demand video content and live streaming
 platform, social media platform, and even dating plaforms and much more; all exclusively for russh members.
                                         </p >
-                                        <p className="tec-card">Browse through our selection of subscriptions and choose only the platforms you desire the most and
+                                        <p className="tec-card bnmg">Browse through our selection of subscriptions and choose only the platforms you desire the most and
 best of all, become eligible to pay less as you subscribe to more platforms.</p>
                                     </div>
                                 </div>
