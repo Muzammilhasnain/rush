@@ -90,13 +90,13 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                                     </div>
                                 </div>
                                 <br />
-                                <div className="row">
+                                <div className="row ">
                                     <div className="col-xl-6">
                                         <p className="txt card-text">Ready to start? Enter your email to create and begin your
                                             membership.</p>
                                     </div>
                                 </div>
-                                <div className="row">
+                                <div className="row marg">
                                     <div className="col-xl-5  col-lg-6 col-md-6 col-sm-8">
                                         <form className="example" action="action_page.php">
                                             <input type="text" placeholder="Enter Your Email" name="search"/>

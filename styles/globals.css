@@ -348,7 +348,10 @@ a {
     .accob{
       padding: 20px;
     }
-    
+    .marg{
+      padding-top: 13px;
+      padding-bottom: 13px;
+    }
     
 
   .outerArea .innerArea{
