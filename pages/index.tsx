@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import Ro from './components/imf'
 
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
@@ -161,7 +161,15 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
         <div className="col-md-6 cols">
-            <img className="climc" src="../asd.png" alt=""/>
+        <div className="grid">
+    
+    <figure className="effect-steve figure">
+      <img className="img_crd" src="../qqq.png" />
+      <figcaption>
+        <p> <span className="subsb"> Subscribe Now</span> <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda tur numquam</p>
+      </figcaption>
+    </figure>
+</div>
             </div></div>
             <div className="col-md-1 cols" ></div>
     
@@ -319,7 +327,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
 
 
         <div className="row">
-            <div className="col-xl-9 col-lg-8 col-md-8 col-sm-12  mx-auto">
+            <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12  mx-auto">
 
                 <form className="example">
                     <div className="row">
@@ -470,7 +478,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
     </div>
     
                       {/* end of footer */}
-
+                     
           </>
   )
 }
