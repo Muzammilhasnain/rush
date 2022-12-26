@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Ro from './components/imf'
+
+
 
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
