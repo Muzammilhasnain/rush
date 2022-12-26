@@ -19,8 +19,36 @@ export default function Home() {
       </Head>
       {/* header */}
       
+                     .
       <div className='he  ' >
-       <img  src="../group-187.svg"  alt="" />   
+      . <img    data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" src="../group-187.svg"  alt="" /> 
+                      
+                      
+                      <div className="offcanvas offcanvas-start"  id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                        <div className="offcanvas-header">
+                          <h5 className="offcanvas-title" id="offcanvasExampleLabel">Rush</h5>
+                          <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div className="offcanvas-body">
+                          <div>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam! Harum aliquid ipsa minus? Consequuntur commodi nostrum tempora esse dolore?
+                          </div>
+                        
+                        
+                            <button className="btn btn-secondary " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                            Action
+                            </button> <br /> <br />
+                            <button className="btn btn-secondary " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                              Action
+                             </button> <br /> <br />
+                             <button className="btn btn-secondary " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                             Sign in
+                             </button>
+                           
+                           
+                          
+                        </div>
+                      </div>   
      <img className='hed' src="../bo.png"  /> 
      
      <img src="../vecto12.svg"     /> 
