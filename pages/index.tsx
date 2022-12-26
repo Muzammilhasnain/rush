@@ -366,7 +366,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                         <div className="col-12 col-sm-2 getStartedBTN">
 
 
-                            <button  type="submit">Get Started <i className="fa fa-arrow-right" aria-hidden="true"></i></button>
+                            <button  className='szbt' type="submit">Get Started <i className="fa fa-arrow-right" aria-hidden="true"></i></button>
 
                         </div>
                     </div>
