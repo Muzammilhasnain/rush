@@ -114,7 +114,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                 expedita excepturi fugit obcaecati aspernatur officiis temporibus suscipit nulla?</p>
         </div>
         <div className="col-md-6 cols">
-            <img className="clim" src="../3e0731a1aebace26ecbebf02a63a6b19.png" alt=""/>
+            <img className="clim" src="../crd1.gif" alt=""/>
             </div></div>
             <div className="col-md-1 cols" ></div>
    <p className='colio'>_</p>
@@ -130,7 +130,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
 <div className="row ">
 <div className="col-md-1 cols" ></div>
                         <div className="col-md-4 cols ">
-            <img className='climoc' src="../qwe.png" alt=""/>
+            <img className='climoc' src="../crd2.gif" alt=""/>
         </div>
         <div className="col-md-1 cols" ></div>
         <div className="col-md-1 cols" ></div>
@@ -179,7 +179,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
 <div className="row ">
 <div className="col-md-1 cols" ></div>
 <div className="col-md-4 cols">
-            <img className='climo' src="../3e0731a1aebace26ecbebf02a63a6b19.png" alt=""/>
+            <img className='climo' src="../crd1.gif" alt=""/>
         </div>
         <div className="col-md-1 cols" ></div>
         <div className="col-md-1 cols" ></div>
