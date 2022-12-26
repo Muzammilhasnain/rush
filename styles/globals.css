@@ -102,11 +102,122 @@ a {
 .hrc{
   color: white;
 }
-
+/* front image */
 .cardhe{
   padding-right: 80px;
   padding-left: 80px;
 }
+@media (max-width: 978px) {
+  .cardhe {
+    padding:0;
+    
+  }}
+  .outerArea .innerArea form.example {
+    height: 60px;
+    background: #fff;
+    border: 1px solid #97A3AE;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+  
+  
+  }
+  .background_cardimg{
+    background: url('../public/gh.png');
+      background-size: cover;
+      background-position: center;
+  
+  }
+  
+  @media screen and (max-width: 880px) {
+    .outerArea .innerArea .heading {
+        font-size: 3em;
+  
+    }
+  
+    .outerArea .innerArea {
+        padding: 30px 40px;
+    }
+  }
+  .outerArea .innerArea form.example input {
+    padding: 10px;
+    font-size: 17px;
+    
+  
+    border: none;
+    border-radius: 20px;
+    float: left;
+    width: 70%;
+    background: #ffff;
+   
+  }
+  @media (max-width:375px) {
+    .outerArea .innerArea form.example button{
+      width:40% !important
+    }
+    
+  }
+  @media (max-width:375px) {
+    .outerArea .innerArea form.example input{
+      width:60%
+    }
+    
+  }
+  .outerArea .innerArea form.example button:hover{
+    background: white;
+    color: #000;
+    border: white;
+    transition: 0.7s;
+  }
+  .outerArea .innerArea form.example button {
+    float: left;
+    width: 30%;
+    height: 54px;
+  
+   
+    background: #EC0000;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #EC0000;
+    border-radius: 10px;
+    margin: 2px;
+    cursor: pointer;
+    
+  }
+  .outerArea .innerArea{
+     /* text-align: center;  */
+    padding: 110px 60px;
+  }
+  .outerArea .innerArea .heading {
+    font-size: 5em;
+  
+  }
+  .outerArea .innerArea{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 22.44%, rgba(0, 0, 0, 0) 98.83%), linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    
+  }
+  .coverimgback{
+    border-radius: 50px;
+  }
+
+  .tec-card{
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .bnmg{
+    font-size: 11.58px ;
+  }
+
+  .marg{
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  
+
+
+
+  
+/* end of front */
 .cardff{
   border-radius: 30px;
   
@@ -123,9 +234,7 @@ a {
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
-.bnmg{
-  font-size: 11.58px ;
-}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -156,9 +265,7 @@ a {
   width: 400px;
   
 }
-.tec-card{
-  color: rgba(255, 255, 255, 0.4);
-}
+
 .climc{
   
   width: 420px;
@@ -166,6 +273,13 @@ a {
 }
 .lightp{
   font-weight: 100;
+  font-size: 13px;
+}
+.scbt{
+  font-size: 25px;
+}
+.scbtt{
+  font-size: 20px;
 }
 .climoc{
   
@@ -188,92 +302,9 @@ a {
 }
 
 /* front */
-.outerArea .innerArea form.example {
-  height: 60px;
-  background: #fff;
-  border: 1px solid #97A3AE;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: row;
 
 
-}
 
-.outerArea .innerArea form.example input {
-  padding: 10px;
-  font-size: 17px;
-  
-
-  border: none;
-  border-radius: 20px;
-  float: left;
-  width: 70%;
-  background: #ffff;
- 
-}
-@media (max-width:375px) {
-  .outerArea .innerArea form.example button{
-    width:40% !important
-  }
-  
-}
-@media (max-width:375px) {
-  .outerArea .innerArea form.example input{
-    width:60%
-  }
-  
-}
-.outerArea .innerArea form.example button:hover{
-  background: white;
-  color: #000;
-  border: white;
-  transition: 0.7s;
-}
-.outerArea .innerArea form.example button {
-  float: left;
-  width: 30%;
-  height: 54px;
-
- 
-  background: #EC0000;
-  color: white;
-  font-size: 17px;
-  border: 1px solid #EC0000;
-  border-radius: 10px;
-  margin: 2px;
-  cursor: pointer;
-  
-}
-.outerArea .innerArea{
-   /* text-align: center;  */
-  padding: 110px 60px;
-}
-.outerArea .innerArea .heading {
-  font-size: 5em;
-
-}
-.background_cardimg{
-  background: url('../public/gh.png');
-    background-size: cover;
-    background-position: center;
-
-}
-
-@media screen and (max-width: 880px) {
-  .outerArea .innerArea .heading {
-      font-size: 3em;
-
-  }
-
-  .outerArea .innerArea {
-      padding: 30px 40px;
-  }
-}
-@media (max-width: 978px) {
-  .cardhe {
-    padding:0;
-    
-  }}
 
 /* bar */
 .contai{
@@ -348,19 +379,10 @@ a {
     .accob{
       padding: 20px;
     }
-    .marg{
-      padding-top: 13px;
-      padding-bottom: 13px;
-    }
-    
+   
 
-  .outerArea .innerArea{
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 22.44%, rgba(0, 0, 0, 0) 98.83%), linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    
-}
-.coverimgback{
-  border-radius: 50px;
-}
+ 
+
 
 
 
@@ -368,6 +390,16 @@ a {
  .he{
   margin-top: 25px;
   }
+  .offcanvas{
+    background-color: #700000cf;
+  }
+  .offbod{
+    color:white;
+  }
+.btn-close{
+  background: url(../public/clos.svg) !important;
+}
+
   .hed{
     margin-left : 45px;
     margin-right : 45px;
@@ -437,6 +469,9 @@ a {
 
 .copyText {
   text-decoration: none;
+}
+.fntsz{
+  font-size: 17px;
 }
                                              /* end of footer */
 

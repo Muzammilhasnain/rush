@@ -26,27 +26,20 @@ export default function Home() {
                       
                       <div className="offcanvas offcanvas-start"  id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                         <div className="offcanvas-header">
-                          <h5 className="offcanvas-title" id="offcanvasExampleLabel">Rush</h5>
+                          <h5 className="offcanvas-title offbod" id="offcanvasExampleLabel">Rush</h5>
                           <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        <div className="offcanvas-body">
+                        <div className="offcanvas-body offbod">
                           <div>
                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam! Harum aliquid ipsa minus? Consequuntur commodi nostrum tempora esse dolore?
                           </div>
                         
-                        
-                            <button className="btn btn-secondary " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                            Action
-                            </button> <br /> <br />
-                            <button className="btn btn-secondary " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                              Action
-                             </button> <br /> <br />
-                             <button className="btn btn-secondary " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                             Sign in
-                             </button>
-                           
-                           
-                          
+                        <br />
+                            
+                             <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">Home</button> <br />
+                             <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">About</button> <br />
+                             <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">Faq</button > <br />
+                             <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">Sign In</button> <br />
                         </div>
                       </div>   
      <img className='hed' src="../bo.png"  /> 
@@ -61,6 +54,7 @@ export default function Home() {
        {/* end header */}
 
      {/* front image  */}
+     <br />
      <div className='cardhe'>
     <div className="outerArea card bg-dark text-white" >
         <div className='background_cardimg coverimgback' >
@@ -239,7 +233,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
             {/* Frequently asked question */}
 
    <br />
-   <h1 className=" bolo clo">Frequently Asked Questions</h1>
+   <h1 className=" bolo clo">Frequently Asked Questions</h1> <br />
         
             {/* toggle 1 */}
       
@@ -248,10 +242,10 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
     <div className="accordion  " id="myAccordion">
         <div className="accordion-item acco">
             <h2 className="accordion-header" id="headingOne">
-                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne"> What is Russh?</button>									
+                <button type="button" className=" scbt accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne"> What is Russh?</button>									
             </h2>
             <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div className="card-body accob">
+                <div className="card-body accob scbtt">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. </p>
                 </div>
             </div>
@@ -269,10 +263,10 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
     <div className="accordion" id="myAccordion">
         <div className="accordion-item acco">
             <h2 className="accordion-header" id="headingTwo">
-                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapsetwo"> How much does Russh cost?</button>									
+                <button type="button" className="accordion-button collapsed scbt" data-bs-toggle="collapse" data-bs-target="#collapsetwo"> How much does Russh cost?</button>									
             </h2>
             <div id="collapsetwo" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div className="card-body accob">
+                <div className="card-body accob scbtt">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. </p>
                 </div>
             </div>
@@ -290,10 +284,10 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
     <div className="accordion" id="myAccordion">
         <div className="accordion-item acco">
             <h2 className="accordion-header" id="headingThree">
-                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne3">How do i cancel my subscription?</button>									
+                <button type="button" className="accordion-button collapsed scbt" data-bs-toggle="collapse" data-bs-target="#collapseOne3">How do i cancel my subscription?</button>									
             </h2>
-            <div id="collapseOne3" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div className="card-body accob">
+            <div id="collapseOne3" className="accordion-collapse collapse " data-bs-parent="#myAccordion">
+                <div className="card-body accob scbtt">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. </p>
                 </div>
             </div>
@@ -312,10 +306,10 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
     <div className="accordion  " id="myAccordion">
         <div className="accordion-item acco">
             <h2 className="accordion-header" id="headingOne4">
-                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne4">What platforms are available on Russh?</button>									
+                <button type="button" className="accordion-button collapsed scbt" data-bs-toggle="collapse" data-bs-target="#collapseOne4">What platforms are available on Russh?</button>									
             </h2>
-            <div id="collapseOne4" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div className="card-body accob">
+            <div id="collapseOne4" className="accordion-collapse collapse " data-bs-parent="#myAccordion">
+                <div className="card-body accob scbtt">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. </p>
                 </div>
             </div>
@@ -332,10 +326,10 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
     <div className="accordion  " id="myAccordion">
         <div className="accordion-item acco">
             <h2 className="accordion-header" id="headingfive">
-                <button type="button" className="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapsefive">How does Russh offer exclusive memberships?</button>									
+                <button type="button" className="accordion-button collapsed scbt" data-bs-toggle="collapse" data-bs-target="#collapsefive">How does Russh offer exclusive memberships?</button>									
             </h2>
             <div id="collapsefive" className="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div className="card-body accob">
+                <div className="card-body accob scbtt">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore tenetur culpa mollitia sed ullam nesciunt facilis repellendus ut cupiditate provident perspiciatis iste eaque, officiis quaerat? Magnam, dicta? Debitis, pariatur. </p>
                 </div>
             </div>
@@ -413,13 +407,14 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                         <hr className="w-100 clearfix d-md-none" />
 
                       
-                        <div className="col-12 col-sm-2 mt-3 colPadding">
+                        <div className="col-12 col-sm-3 mt-3 colPadding">
                            
                             <ul className="listStyle">
-                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Company</li>
-                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> FAQs</li>
-                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Contact Us</li>
-                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Blogs</li>
+                            
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> &nbsp;&nbsp; &nbsp; &nbsp;  Company</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i>&nbsp;&nbsp; &nbsp; &nbsp; FAQs</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i>&nbsp;&nbsp; &nbsp; &nbsp; Contact Us</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i>&nbsp;&nbsp; &nbsp; &nbsp; Blogs</li>
 
                             </ul>
                         </div>
@@ -428,14 +423,14 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                         <hr className="w-100 clearfix d-md-none" />
 
                        
-                        <div className="col-12 col-sm-4 mt-3 colPadding" >
+                        <div className="col-12 col-sm-3 mt-3 colPadding" >
                             
                        
                             <ul className="listStyle">
-                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Legal</li>
-                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Terms & Conditions</li>
-                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> Privacy Policy</li>
-                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i> About Us</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i>&nbsp;&nbsp; &nbsp; &nbsp; Legal</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i>&nbsp;&nbsp; &nbsp; &nbsp; Terms & Conditions</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i>&nbsp;&nbsp; &nbsp; &nbsp; Privacy Policy</li>
+                                <li className="text-white my-3"><i className="fa fa-duotone fa-play iconSize" ></i>&nbsp;&nbsp; &nbsp; &nbsp; About Us</li>
 
                             </ul>
                        
@@ -446,11 +441,11 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
 
                        
                         <div className="col-12 col-sm-3 mt-3 contactUs" >
-                            <h6 className="text-uppercase mb-4 font-weight-bold">Question? Contact</h6>
+                            <h6 className=" mb-4 font-weight-bold fntsz">Question? Contact Us</h6>
                         
-                            <p><i className="fa fa-envelope mr-3"></i> Send Email</p>
-                            <p><i className="fa-solid fa-comment mr-3"></i> Chat With Us</p>
-                            <p><i className="fa-solid fa-phone mr-3"></i> Give Us A Call</p>
+                            <p><i className="fa fa-envelope mr-3"></i>&nbsp; Send Email</p>
+                            <p><i className="fa-solid fa-comment mr-3"></i> &nbsp;Chat With Us</p>
+                            <p><i className="fa-solid fa-phone mr-3"></i>&nbsp; Give Us A Call</p>
 
                             <a className="btn btn-outline-light btn-floating m-1 webIcon text-white"  role="button"><i
                                 className="fab fa-facebook-f"></i></a>
