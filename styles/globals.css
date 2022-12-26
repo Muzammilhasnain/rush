@@ -529,6 +529,10 @@ border: white;
 .szbtt{
   font-size: 12px;
 }
+.szbttt{
+  font-size: 20px;
+  font-weight: 600;
+}
 .member form.example button {
  
   width: 100%;

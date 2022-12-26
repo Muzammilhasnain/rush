@@ -345,7 +345,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                    {/* membership email */}
 <br />
 <br />
-        <p className=" bolon clo">Ready to start? Enter your email to create and begin your membership.</p>
+        <p className=" bolon clo szbttt">Ready to start? Enter your email to create and begin your membership.</p>
         <div className="member my-5">
 
 
