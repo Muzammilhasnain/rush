@@ -18,8 +18,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* header */}
-      
-                     .
+      <div className='heddo'>
+                    .
       <div className='he  ' >
       . <img    data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" src="../group-187.svg"  alt="" /> 
                       
@@ -50,7 +50,7 @@ export default function Home() {
      </div>
      </div>    
          <hr className='hrc' />
-       
+         </div>
        {/* end header */}
 
      {/* front image  */}
@@ -478,7 +478,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                         <div className="col-md-7 col-lg-8 text-center text-md-start">
                             
                             <div className="p-3">
-                                Copyright @ 2022
+                                Copyright @ 2022 &nbsp;
                                 <a className="text-white copyText" href="https://mdbootstrap.com/">Russh Interactive LLC</a>
                             </div>
                            
