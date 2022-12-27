@@ -26,7 +26,7 @@ export default function Home() {
                       
                       <div className="offcanvas offcanvas-start"  id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                         <div className="offcanvas-header">
-                          <h5 className="offcanvas-title offbod" id="offcanvasExampleLabel">Rush</h5>
+                          <h5 className="offcanvas-title offbod title" id="offcanvasExampleLabel">Rush</h5>
                           <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div className="offcanvas-body offbod">
@@ -36,10 +36,10 @@ export default function Home() {
                         
                         <br />
                             
-                             <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">Home</button> <br />
-                             <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">About</button> <br />
-                             <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">Faq</button > <br />
-                             <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">Sign In</button> <br />
+                             <button  type="button" className=" btn-sidebar btn d-sm-none d-md-block d-none d-sm-block ">Home</button>
+                             <button  type="button" className=" btn-sidebar btn d-sm-none d-md-block d-none d-sm-block ">About</button>
+                             <button  type="button" className=" btn-sidebar btn d-sm-none d-md-block d-none d-sm-block ">Faq</button >
+                             <button  type="button" className=" btn-sidebar btn d-sm-none d-md-block d-none d-sm-block ">Sign In</button>
                         </div>
                       </div>   
      <img className='hed' src="../bo.png"  /> 
@@ -478,7 +478,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                         <div className="col-md-7 col-lg-8 text-center text-md-start">
                             
                             <div className="p-3">
-                                © 2022 Copyright:
+                                Copyright @ 2022
                                 <a className="text-white copyText" href="https://mdbootstrap.com/">Russh Interactive LLC</a>
                             </div>
                            
