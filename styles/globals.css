@@ -177,7 +177,7 @@ a {
    
     background: #EC0000;
     color: white;
-    font-size: 17px;
+    font-size: 14px;
     border: 1px solid #EC0000;
     border-radius: 10px;
     margin: 2px;
@@ -221,6 +221,31 @@ a {
 .cardff{
   border-radius: 30px;
   
+}
+
+
+@media (max-width:403px) {
+  .clim, .climo ,.climoc{
+    width:347px !important
+  }
+  
+}
+
+@media (max-width:370px) {
+     .jmmj{
+      width:240px !important
+     }
+}
+@media (max-width:440px){
+  .outerArea .innerArea {
+    padding: 0!important;
+  }
+
+}
+@media (max-width:421pc){
+  .outerArea .innerArea .heading {
+    font-size: 3em;
+}
 }
 .bg-dark {
   --bs-bg-opacity: 0;}

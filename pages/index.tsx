@@ -36,10 +36,10 @@ export default function Home() {
                         
                         <br />
                             
-                             <button  type="button" className=" btn-sidebar btn d-sm-none d-md-block d-none d-sm-block ">Home</button>
-                             <button  type="button" className=" btn-sidebar btn d-sm-none d-md-block d-none d-sm-block ">About</button>
-                             <button  type="button" className=" btn-sidebar btn d-sm-none d-md-block d-none d-sm-block ">Faq</button >
-                             <button  type="button" className=" btn-sidebar btn d-sm-none d-md-block d-none d-sm-block ">Sign In</button>
+                             <button  type="button" className=" btn-sidebar btn">Home</button>
+                             <button  type="button" className=" btn-sidebar btn">About</button>
+                             <button  type="button" className=" btn-sidebar btn">Faq</button >
+                             <button  type="button" className=" btn-sidebar btn">Sign In</button>
                         </div>
                       </div>   
      <img className='hed' src="../bo.png"  /> 
@@ -186,7 +186,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
         <div className="col-md-6 cols">
         <div className="grid">
     
-    <figure className="effect-steve figure">
+    <figure className="effect-steve figure jmmj">
       <img className="img_crd" src="../qqq.png" />
       <figcaption>
         <p> <span className="subsb"> Subscribe Now</span> <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda tur numquam</p>
@@ -502,7 +502,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
     </div>
     
                       {/* end of footer */}
-                     
+
           </>
   )
 }
