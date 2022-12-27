@@ -242,7 +242,7 @@ a {
   }
 
 }
-@media (max-width:421pc){
+@media (max-width:421px){
   .outerArea .innerArea .heading {
     font-size: 3em;
 }
