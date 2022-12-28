@@ -242,7 +242,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
 
 
                                 <div className="row marg">
-                                    <div className="col-xl-6  col-lg-6 col-md-6 col-sm-8">
+                                    <div className="col-xl-7  col-lg-7 col-md-9 col-sm-10">
                                         <form className="example" action="action_page.php">
                                             <input type="text" placeholder="Email Address" name="search" />
                                             <button type="submit">Get Started <i className="fa fa-arrow-right"
@@ -298,7 +298,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
 
 
                                 <div className="row marg">
-                                    <div className="col-xl-6  col-lg-6 col-md-6 col-sm-8">
+                                    <div className="col-xl-7  col-lg-7 col-md-9 col-sm-10">
                                         <form className="example" action="action_page.php">
                                             <input type="text" placeholder="Email Address" name="search" />
                                             <button type="submit">Get Started <i className="fa fa-arrow-right"
