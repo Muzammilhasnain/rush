@@ -43,8 +43,28 @@ export default function Home() {
                         </div>
                       </div>   
      <img className='hed' src="../bo.png"  /> 
-     
-     <img src="../vecto12.svg"     /> 
+     . <img    data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" src="../vecto12.svg"  alt="" /> 
+                      
+                      
+                      <div className="offcanvas offcanvas-start"  id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                        <div className="offcanvas-header">
+                          <h5 className="offcanvas-title offbod title " id="offcanvasExampleLabel">Rush</h5>
+                          <button type="button" className="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div className="offcanvas-body offbod">
+                          <div>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam! Harum aliquid ipsa minus? Consequuntur commodi nostrum tempora esse dolore?
+                          </div>
+                        
+                        <br />
+                            
+                             <button  type="button" className=" btn-sidebar btn">Home</button>
+                             <button  type="button" className=" btn-sidebar btn">About</button>
+                             <button  type="button" className=" btn-sidebar btn">Faq</button >
+                             <button  type="button" className=" btn-sidebar btn">Sign In</button>
+                        </div>
+                      </div>
+    
      <div className='nm' >
      <button  type="button" className=" hef btn d-sm-none d-md-block d-none d-sm-block ">Sign In</button>
      </div>
