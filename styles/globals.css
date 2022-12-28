@@ -841,7 +841,7 @@ h1.slogan {
 
   font-style: normal;
   font-weight: 600;
-  font-size: 73.007px;
+  font-size: 80px;
   line-height: 80px;
   text-align: left;
 
@@ -870,7 +870,7 @@ form.example {
 
 }
 .rush_text{
-  font-size: 13.5px !important;
+  font-size: 14.5px !important;
 }
 
 form.example input {
