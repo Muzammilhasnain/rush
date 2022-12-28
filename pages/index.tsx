@@ -187,7 +187,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                                 <div className="row marg">
                                     <div className="col-xl-7  col-lg-7 col-md-9 col-sm-10">
                                         <form className="example" action="action_page.php">
-                                            <input type="text" placeholder="Email Address" name="search" />
+                                            <input autoComplete="off" type="text" placeholder="Email Address" name="search" />
                                             <button type="submit">Get Started <i className="fa fa-arrow-right"
                                                     aria-hidden="true"></i></button>
                                         </form>
@@ -577,7 +577,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                         <div className="col-12 col-sm-10">
 
 
-                            <input type="text" placeholder="Email Address" name="search"/>
+                            <input autoComplete="off" type="text" placeholder="Email Address" name="search"/>
                         </div>
 
 
