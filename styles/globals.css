@@ -498,6 +498,9 @@ a {
   background: #404040;
   border: none
 }
+.webIcon:hover{
+  background: #404040 !important;
+}
 .privacy {
   color: #ffff;
 }
