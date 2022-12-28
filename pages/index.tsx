@@ -54,7 +54,7 @@ export default function Home() {
        {/* end header */}
 
      {/* front image  */}
-     <br />
+     {/* <br />
      <div className='cardhe'>
     <div className="outerArea card bg-dark text-white" >
         <div className='background_cardimg coverimgback' >
@@ -110,6 +110,213 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                         </div>
             
        </div>
+ */}
+
+
+
+<div className="cont">
+        <div id="carouselExampleDark" className="carousel carousel slide" data-bs-ride="carousel">
+
+            <div className="carBtn carousel-indicators">
+                <button className="btnCar " type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                    aria-label="Slide 1"></button>
+                <button className="btnCar active" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-current="true" aria-label="Slide 2"></button>
+                <button className="btnCar" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div className="outerArea carousel-inner">
+
+                <div className="innerArea carousel-item active" data-bs-interval="10000">
+                   
+
+                    <div className="clr">
+
+
+                        <div className="carousel-caption  d-md-block">
+
+                            <div className="inner">
+                                <h5 className="heading card-title"> <br/> <br/> Welcome to Russh!</h5>
+
+<br /><br />
+                                <p className="whiteTxt">Russh is a super platform that hosts and offers other platform as
+                                    exclusive supcription services.</p>
+                                <div className="row">
+                                    <div className="col-xl-6">
+                                        <p className="txt card-text">
+                                            Russh offers exclusive subcription memberships to some of the most unique
+                                            and innovative marketplace platforms, on demand service platform, on-demand
+                                            video content and live streaming platform, social media platform, and even
+                                            dating plaforms and much more; all exclusively for russh members.
+
+                                        </p>
+                                        <p className="txt card-text">
+                                            Browse through our selection of subscriptions and choose only the platforms
+                                            you desire the most and best of all, become eligible to pay less as you
+                                            subscribe to more platforms.
+
+                                            <br/><br/>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                                <p className="whiteTxt txt2">Ready to start? Enter your email to create and begin your
+                                    membership.</p>
+
+
+                                <div className="row marg">
+                                    <div className="col-xl-5  col-lg-6 col-md-6 col-sm-8">
+                                        <form className="example" action="action_page.php">
+                                            <input type="text" placeholder="Enter Your Email" name="search" />
+                                            <button type="submit">Get Started <i className="fa fa-arrow-right"
+                                                    aria-hidden="true"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+
+
+                                <p className="whiteTxt txt2"> <br/> <br/>Get the best platforms woth exclusive access all
+                                    under one
+                                    roof.</p>
+
+                                <br/><br/><br/><br/>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="innerArea1 carousel-item" data-bs-interval="2000">
+                   
+                    <div className="clr">
+                        <div className="carousel-caption  d-md-block">
+
+                            <div className="inner">
+                                <h5 className="heading card-title"> <br/> <br/> Welcome to Russh!</h5>
+
+                                <p className="whiteTxt">Russh is a super platform that hosts and offers other platform as
+                                    exclusive supcription services.</p>
+                                <div className="row">
+                                    <div className="col-xl-6">
+                                        <p className="txt card-text">
+                                            Russh offers exclusive subcription memberships to some of the most unique
+                                            and innovative marketplace platforms, on demand service platform, on-demand
+                                            video content and live streaming platform, social media platform, and even
+                                            dating plaforms and much more; all exclusively for russh members.
+
+                                        </p>
+                                        <p className="txt card-text">
+                                            Browse through our selection of subscriptions and choose only the platforms
+                                            you desire the most and best of all, become eligible to pay less as you
+                                            subscribe to more platforms.
+
+                                            <br/><br/>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                                <p className="whiteTxt txt2">Ready to start? Enter your email to create and begin your
+                                    membership.</p>
+
+
+                                <div className="row marg">
+                                    <div className="col-xl-5  col-lg-6 col-md-6 col-sm-8">
+                                        <form className="example" action="action_page.php">
+                                            <input type="text" placeholder="Enter Your Email" name="search" />
+                                            <button type="submit">Get Started <i className="fa fa-arrow-right"
+                                                    aria-hidden="true"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+
+
+                                <p className="whiteTxt txt2"> <br/> <br/>Get the best platforms woth exclusive access all
+                                    under one
+                                    roof.</p>
+
+                                <br/><br/><br/><br/>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div className="innerArea2 carousel-item" data-bs-interval="2000">
+                   
+                    <div className="clr">
+                        <div className="carousel-caption  d-md-block">
+
+                            <div className="inner">
+                                <h5 className="heading card-title"> <br /> <br /> Welcome to Russh!</h5>
+
+                                <p className="whiteTxt">Russh is a super platform that hosts and offers other platform as
+                                    exclusive supcription services.</p>
+                                <div className="row">
+                                    <div className="col-xl-6">
+                                        <p className="txt card-text">
+                                            Russh offers exclusive subcription memberships to some of the most unique
+                                            and innovative marketplace platforms, on demand service platform, on-demand
+                                            video content and live streaming platform, social media platform, and even
+                                            dating plaforms and much more; all exclusively for russh members.
+
+                                        </p>
+                                        <p className="txt card-text">
+                                            Browse through our selection of subscriptions and choose only the platforms
+                                            you desire the most and best of all, become eligible to pay less as you
+                                            subscribe to more platforms.
+
+                                            <br /><br />
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                                <p className="whiteTxt txt2">Ready to start? Enter your email to create and begin your
+                                    membership.</p>
+
+
+                                <div className="row marg">
+                                    <div className="col-xl-5  col-lg-6 col-md-6 col-sm-8">
+                                        <form className="example" action="action_page.php">
+                                            <input type="text" placeholder="Enter Your Email" name="search" />
+                                            <button type="submit">Get Started <i className="fa fa-arrow-right"
+                                                    aria-hidden="true"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+
+
+                                <p className="whiteTxt txt2"> <br/> <br/>Get the best platforms woth exclusive access all
+                                    under one
+                                    roof.</p>
+
+                                <br/><br/><br/><br/>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
