@@ -51,8 +51,9 @@ export default function Home() {
      </div>    
          <hr className='hrc' />
          </div>
-       {/* end header */}
 
+       {/* end header */}
+<br />
      {/* front image  */}
      {/* <br />
      <div className='cardhe'>
@@ -110,9 +111,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                         </div>
             
        </div>
- */}
-
-
+ */
 
 <div className="cont">
         <div id="carouselExampleDark" className="carousel carousel slide" data-bs-ride="carousel">
@@ -139,8 +138,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                             <div className="inner">
                                 <h5 className="heading card-title"> <br/> <br/> Welcome to Russh!</h5>
 
-<br /><br />
-                                <p className="whiteTxt">Russh is a super platform that hosts and offers other platform as
+                                <p className="whiteTxt rush_text">Russh is a super platform that hosts and offers other platform as
                                     exclusive supcription services.</p>
                                 <div className="row">
                                     <div className="col-xl-6">
@@ -167,9 +165,9 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
 
 
                                 <div className="row marg">
-                                    <div className="col-xl-5  col-lg-6 col-md-6 col-sm-8">
+                                    <div className="col-xl-6  col-lg-6 col-md-6 col-sm-8">
                                         <form className="example" action="action_page.php">
-                                            <input type="text" placeholder="Enter Your Email" name="search" />
+                                            <input type="text" placeholder="Email Address" name="search" />
                                             <button type="submit">Get Started <i className="fa fa-arrow-right"
                                                     aria-hidden="true"></i></button>
                                         </form>
@@ -177,7 +175,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                                 </div>
 
 
-                                <p className="whiteTxt txt2"> <br/> <br/>Get the best platforms woth exclusive access all
+                                <p className="whiteTxt txt2 txt1_2"> Get the best platforms woth exclusive access all
                                     under one
                                     roof.</p>
 
@@ -190,14 +188,14 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
 
 
                 <div className="innerArea1 carousel-item" data-bs-interval="2000">
-                   
+                  
                     <div className="clr">
                         <div className="carousel-caption  d-md-block">
 
                             <div className="inner">
                                 <h5 className="heading card-title"> <br/> <br/> Welcome to Russh!</h5>
 
-                                <p className="whiteTxt">Russh is a super platform that hosts and offers other platform as
+                                <p className="whiteTxt rush_text">Russh is a super platform that hosts and offers other platform as
                                     exclusive supcription services.</p>
                                 <div className="row">
                                     <div className="col-xl-6">
@@ -224,9 +222,9 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
 
 
                                 <div className="row marg">
-                                    <div className="col-xl-5  col-lg-6 col-md-6 col-sm-8">
+                                    <div className="col-xl-6  col-lg-6 col-md-6 col-sm-8">
                                         <form className="example" action="action_page.php">
-                                            <input type="text" placeholder="Enter Your Email" name="search" />
+                                            <input type="text" placeholder="Email Address" name="search" />
                                             <button type="submit">Get Started <i className="fa fa-arrow-right"
                                                     aria-hidden="true"></i></button>
                                         </form>
@@ -234,11 +232,11 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                                 </div>
 
 
-                                <p className="whiteTxt txt2"> <br/> <br/>Get the best platforms woth exclusive access all
+                                <p className="whiteTxt txt2 txt1_2"> Get the best platforms woth exclusive access all
                                     under one
                                     roof.</p>
 
-                                <br/><br/><br/><br/>
+                                <br /><br/><br/><br/>
                             </div>
 
                         </div>
@@ -246,14 +244,14 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                 </div>
 
                 <div className="innerArea2 carousel-item" data-bs-interval="2000">
-                   
+                    
                     <div className="clr">
                         <div className="carousel-caption  d-md-block">
 
                             <div className="inner">
                                 <h5 className="heading card-title"> <br /> <br /> Welcome to Russh!</h5>
 
-                                <p className="whiteTxt">Russh is a super platform that hosts and offers other platform as
+                                <p className="whiteTxt rush_text">Russh is a super platform that hosts and offers other platform as
                                     exclusive supcription services.</p>
                                 <div className="row">
                                     <div className="col-xl-6">
@@ -280,9 +278,9 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
 
 
                                 <div className="row marg">
-                                    <div className="col-xl-5  col-lg-6 col-md-6 col-sm-8">
+                                    <div className="col-xl-6  col-lg-6 col-md-6 col-sm-8">
                                         <form className="example" action="action_page.php">
-                                            <input type="text" placeholder="Enter Your Email" name="search" />
+                                            <input type="text" placeholder="Email Address" name="search" />
                                             <button type="submit">Get Started <i className="fa fa-arrow-right"
                                                     aria-hidden="true"></i></button>
                                         </form>
@@ -290,11 +288,11 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
                                 </div>
 
 
-                                <p className="whiteTxt txt2"> <br/> <br/>Get the best platforms woth exclusive access all
+                                <p className="whiteTxt txt2 txt1_2"> Get the best platforms woth exclusive access all
                                     under one
                                     roof.</p>
 
-                                <br/><br/><br/><br/>
+                                <br /><br /><br /><br />
                             </div>
 
                         </div>
@@ -316,12 +314,7 @@ best of all, become eligible to pay less as you subscribe to more platforms.</p>
 
 
 
-
-
-
-
-
-              {/* end of front image */}
+              /* end of front image */}
 
 
 

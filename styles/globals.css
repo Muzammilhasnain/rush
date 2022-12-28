@@ -103,7 +103,7 @@ a {
   color: white;
 }
 /* front image */
-.cardhe{
+/* .cardhe{
   padding-right: 80px;
   padding-left: 80px;
 }
@@ -133,9 +133,9 @@ a {
     .outerArea .innerArea .heading {
         font-size: 3em;
   
-    }
+    } */
   
-    .outerArea .innerArea {
+    /* .outerArea .innerArea {
         padding: 30px 40px;
     }
   }
@@ -184,9 +184,9 @@ a {
     cursor: pointer;
     
   }
-  .outerArea .innerArea{
+  .outerArea .innerArea{ */
      /* text-align: center;  */
-    padding: 110px 60px;
+    /* padding: 110px 60px;
   }
   .outerArea .innerArea .heading {
     font-size: 5em;
@@ -212,7 +212,7 @@ a {
     padding-top: 13px;
     padding-bottom: 13px;
   }
-  
+   */
 
 
 
@@ -798,7 +798,7 @@ h1.slogan {
 }
 
 .outerArea .innerArea img {
-  
+
   background-size: cover;
   background-position: center;
 
@@ -830,7 +830,7 @@ h1.slogan {
 }
 
 .inner {
- 
+
   justify-content: center;
 
 
@@ -838,7 +838,7 @@ h1.slogan {
 }
 
 .heading {
- 
+
   font-style: normal;
   font-weight: 600;
   font-size: 73.007px;
@@ -869,12 +869,13 @@ form.example {
   margin-top: 5px;
 
 }
+.rush_text{
+  font-size: 13.5px !important;
+}
 
 form.example input {
-  /* padding: 10px; */
-  font-size: 14px;
-
-
+  padding-left: 20px; 
+  font-size: 14.74px;
   border: none;
   border-radius: 20px;
   float: left;
@@ -906,12 +907,12 @@ form.example input {
 
 form.example button {
   float: left;
-  width: 40%;
+  width: 30%;
   height: 44px;
 
   background: #EC0000;
   color: white;
-  font-size: 14px;
+  font-size: 11px;
   border: 1px solid #EC0000;
   border-radius: 10px;
   margin: 2px;
@@ -919,16 +920,21 @@ form.example button {
   font-family: 'poppins';
 }
 
+.carousel-indicators{
+  margin-left: 7% !important;
+}
 .carousel-indicators .active {
   background-color: #EC0000;
   width: 30px !important;
 }
 
 .carBtn {
-  top: 85%;
+  top: 78%;
   width: 90px;
 }
-
+.row>* {
+  padding-left: 0 !important;
+}
 .btnCar {
   width: 13px !important;
 }
@@ -941,14 +947,23 @@ form.example button {
   text-align: left;
 }
 
+.txt1_2{
+  font-size: 16.32px;
+}
+
+.carousel-caption{
+  left: 7% !important;
+  padding-bottom: 3.25rem !important;
+}
+
 .txt2 {
   margin-top: 6px;
   line-height: 8px;
 }
 
 .marg {
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 1380px) {
@@ -957,7 +972,7 @@ form.example button {
   }
 
   .inner {
-   
+
       justify-content: center;
   }
 
@@ -973,6 +988,16 @@ form.example button {
   }
 }
 
+@media screen and (max-width: 315px) {
+  .heading{
+      line-height: 1.2 !important;
+      font-size: 24px !important;
+  }
+
+
+
+}
+
 @media screen and (max-width: 1200px) {
 
   .heading {
@@ -986,76 +1011,56 @@ form.example button {
       font-size: 12px;
       line-height: 1;
   }
-  .whiteTxt .txt2{
-    line-height: 1;
+
+  .whiteTxt .txt2 {
+      line-height: 1;
   }
+
   .txt {
       font: 9px;
       margin-bottom: 10px;
 
   }
 
- 
+
 }
 
-/* @media screen and (max-width: 1000px) {
-  .carBtn {
-      top: 80%;
-  }
-
+@media screen and (max-width: 844px) {
   .heading {
       font-size: 50px;
-      line-height: 22px;
   }
-
-  .whiteTxt {
-     
-      margin-bottom: 5px;
-  }
-
-  .txt {
-      margin-bottom: 7px;
-  }
-
-} */
-
-/* @media screen and (max-width: 900px) {
-  .heading {
-      font-size: 45px;
-      line-height: 18px;
-  }
-
-  .whiteTxt {
-      
-      margin-bottom: 5px;
-  }
-
-  .txt {
-      margin-bottom: 7px;
-  }
-
-  form.example {
-      height: 40px;
-  }
-  form.example button {
-      height: 34px;
-    
-
-  }
-
-  
-
-  .cont {
+  .cont{
       padding: 0;
   }
+}
 
-} */
-
-@media screen and (max-width: 1020px ) {
-  form.example button{
-    font-size: 10px;
+@media screen and (max-width: 724px) {
+  .heading {
+      font-size: 40px;
   }
-  
+}
+@media screen and (max-width: 533px) {
+  .heading {
+      font-size: 28px !important;
+  }
+  .whiteTxt{
+      font-size: 10px;
+  }
+  .txt{
+      font-size: 10px;
+      line-height: 1.4
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 1020px) {
+  form.example button {
+      font-size: 10px;
+  }
+
 }
 
 @media screen and (max-width: 660px) {
@@ -1066,13 +1071,6 @@ form.example button {
 
 }
 
-@media screen and (max-width: 500px) {
-  .heading {
-      font-size: 30px;
-
-  }
-
-}
 
 .clr {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 22.44%, rgba(0, 0, 0, 0) 98.83%), linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -1084,4 +1082,3 @@ form.example button {
 
 
 }
-
